@@ -1,0 +1,80 @@
+/* App.css */
+/* App.css */
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://img.freepik.com/foto-gratis/collage-fondo-pelicula_23-2149876003.jpg?t=st=1729680814~exp=1729684414~hmac=c2cd8eb3b706f37bbf8bf853263cb81ccd3cf26cf3580cc4eb511d21c9c8aa00&w=996'); 
+  background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  color: white;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3em; /* Un tamaño grande pero no exagerado */
+  text-align: center;
+  margin-top: 50px;
+  color: #ffffff; /* Color blanco puro */
+  text-transform: uppercase; /* Convertir el texto a mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras para darle aire */
+  font-weight: 700; /* Hacer el texto más grueso */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Sombra sutil para mejorar la visibilidad */
+}
+
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  background-color: #2c3e50;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+nav ul li button:hover {
+  background-color: #3498db;
+  border-radius: 5px;
+}
+
+
+
+
+/* Margen debajo de la barra de navegación */
+#home {
+  margin-top: 50px; /* Añade espacio entre la barra de navegación y el contenido de inicio */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+/* Asegúrate de que el título esté alineado correctamente */
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px; /* Espacio entre el título y el siguiente contenido */
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.intro {
+  margin-top: 20px; /* Espacio debajo del título "Bienvenido a Movie Recs" */
+}
+
